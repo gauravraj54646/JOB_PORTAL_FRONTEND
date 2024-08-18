@@ -168,8 +168,7 @@ export const deleteApplication = (id) => async (dispatch) => {
     const response = await axios.delete(
       // `https://job-portal-backend-psi.vercel.app/api/v1/application/delete/${id}`,
       // `http://localhost:4000/api/v1/application/delete/${id}`,
-      
-      `/api/v1/application/delete/${id}`,
+     `/api/v1/application/delete/${id}`,
       { withCredentials: true }
     );
     dispatch(
