@@ -110,7 +110,7 @@ const JobPost = () => {
 
   return (
     <div className="account_components">
-      <h3>Post A Job</h3>
+      <h3>Post A Job/Internship</h3>
       <div>
         <label>Title</label>
         <input

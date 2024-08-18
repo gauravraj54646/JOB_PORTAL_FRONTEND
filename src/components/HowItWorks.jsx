@@ -15,7 +15,7 @@ const HowItWorks = () => {
           <h4>Create an Account</h4>
           <p>
             Sign up for a free account as a job seeker or employer. Set up your
-            profile in minutes to start posting jobs or applying for jobs.
+            profile in minutes to start posting jobs or applying for jobs/intern.
             Customize your profile to highlight your skills or requirements.
           </p>
         </div>
