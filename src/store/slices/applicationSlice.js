@@ -85,7 +85,9 @@ export const fetchEmployerApplications = () => async (dispatch) => {
   try {
     const response = await axios.get(
       // `https://job-portal-backend-psi.vercel.app/api/v1/application/employer/getall`,
-      `http://localhost:4000/api/v1/application/employer/getall`,
+      // `http://localhost:4000/api/v1/application/employer/getall`,
+      "/api/v1/application/employer/getall",
+
       {
         withCredentials: true,
       }
@@ -110,7 +112,9 @@ export const fetchJobSeekerApplications = () => async (dispatch) => {
   try {
     const response = await axios.get(
       // `https://job-portal-backend-psi.vercel.app/api/v1/application/jobseeker/getall`,
-      `http://localhost:4000/api/v1/application/jobseeker/getall`,
+      // `http://localhost:4000/api/v1/application/jobseeker/getall`,
+      "/api/v1/application/jobseeker/getall",
+
       {
         withCredentials: true,
       }
@@ -135,7 +139,10 @@ export const postApplication = (data, jobId) => async (dispatch) => {
   try {
     const response = await axios.post(
       // `https://job-portal-backend-psi.vercel.app/api/v1/application/post/${jobId}`,
-      `http://localhost:4000/api/v1/application/post/${jobId}`,
+      // `http://localhost:4000/api/v1/application/post/${jobId}`,
+
+      `/api/v1/application/post/${jobId}`,
+
       data,
       {
         withCredentials: true,
@@ -160,7 +167,9 @@ export const deleteApplication = (id) => async (dispatch) => {
   try {
     const response = await axios.delete(
       // `https://job-portal-backend-psi.vercel.app/api/v1/application/delete/${id}`,
-      `http://localhost:4000/api/v1/application/delete/${id}`,
+      // `http://localhost:4000/api/v1/application/delete/${id}`,
+      
+      `/api/v1/application/delete/${id}`,
       { withCredentials: true }
     );
     dispatch(
