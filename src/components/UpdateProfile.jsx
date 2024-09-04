@@ -114,6 +114,35 @@ const UpdateProfile = () => {
           onChange={(e) => setName(e.target.value)}
         />
       </div>
+
+ 
+      //==================================================================
+{/*        <div>
+        <label>Branch</label>
+        <input
+          type="text"
+          disabled
+          value={user && user.address}
+          onChange={(e) => e.target.value}
+        />
+      </div>
+     
+
+        <div>
+        <label>Phone Number</label>
+        <input
+          type="number"
+          disabled
+          value={user && user.phone}
+          onChange={(e) => e.target.value}
+        />
+      </div>
+
+        */}
+    //================================================================================
+
+      
+      
       <div>
         <label>Email Address</label>
         <input
