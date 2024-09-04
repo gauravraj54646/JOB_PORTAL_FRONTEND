@@ -74,7 +74,7 @@ const MyProfile = () => {
         <input
           type="text"
           disabled
-          value={user && user.role}
+          value={user && user.role === "Employer" ? "Traning and Placement Cell" : "Student" }
           onChange={(e) => e.target.value}
         />
       </div>
