@@ -175,7 +175,7 @@ const UpdateProfile = () => {
             </div>
           </div>
           <div>
-            <label>Coverletter</label>
+            <label>Descriptions</label>
             <textarea
               value={coverLetter}
               onChange={(e) => setCoverLetter(e.target.value)}
