@@ -38,11 +38,11 @@ const Applications = () => {
       {loading ? (
         <Spinner />
       ) : applications && applications.length <= 0 ? (
-        <h1>You have no applications from job seekers.</h1>
+        <h1>You have no applications from Students.</h1>
       ) : (
         <>
           <div className="account_components">
-            <h3>Applications For Your Posted Jobs</h3>
+            <h3>Applications For My Posted Jobs</h3>
             <div className="applications_container">
               {applications.map((element) => {
                 return (
@@ -67,7 +67,7 @@ const Applications = () => {
                       {element.jobSeekerInfo.address}
                     </p>
                     <p className="sub-sec">
-                      <span>Applicant's CoverLetter: </span>
+                      <span>Applicant's Descriptions: </span>
                       <textarea
                         value={element.jobSeekerInfo.coverLetter}
                         rows={5}
