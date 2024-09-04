@@ -229,13 +229,13 @@ const JobPost = () => {
       </div>
       <div>
         <div className="label-infoTag-wrapper">
-          <label>Hiring Multiple Candidates?</label>
+          <label>Apportunity?</label>
           <span>
             <CiCircleInfo /> Optional
           </span>
         </div>
         <select
-          value={Apportunity}
+          value={hiringMultipleCandidates}
           onChange={(e) => setHiringMultipleCandidates(e.target.value)}
         >
 {/*           <option value="">Apportunity </option> */}
