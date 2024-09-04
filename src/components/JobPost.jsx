@@ -24,13 +24,20 @@ const JobPost = () => {
   const [personalWebsiteTitle, setPersonalWebsiteTitle] = useState("");
   const [personalWebsiteUrl, setPersonalWebsiteUrl] = useState("");
 
-  const nichesArray = [
+  const FieldArray = [
     "Software Development",
     "Web Development",
     "Cybersecurity",
     "Data Science",
     "Artificial Intelligence",
     "Cloud Computing",
+    "VLSI",
+    "Analog Electronics",
+    "Digital Control",
+    "Automation",
+    "Industrial Automation",
+    "Industrial Instrumentation",
+    "Petrochemical",
     "DevOps",
     "Mobile App Development",
     "Blockchain",
@@ -47,28 +54,37 @@ const JobPost = () => {
     "IT Consulting",
   ];
 
-  const cities = [
-    "Mumbai",
-    "Delhi",
-    "Bangalore ",
-    "Hyderabad",
-    "Ahmedabad",
-    "Chennai",
-    "Muzaffarpur",
-    "Kolkata",
-    "Pune",
-    "Jaipur",
-    "Surat",
-    "Lucknow",
-    "Kanpur",
-    "Nagpur",
-    "Visakhapatnam",
-    "Indore",
-    "Thane",
-    "Bhopal",
-    "Patna",
-    "Vadodara",
-    "Coimbatore",
+  // const cities = [
+    const years = [
+    "1st year, 1st Semester",
+     "1st year, 2nd Semester",
+     "2nd year, 3rd Semester",
+     "2nd year, 4th Semester",
+     "3rd year, 5th Semester",
+    "3rd year, 6th Semester", 
+     "4th year, 7th Semester",
+     "4th year, 8th Semester",
+    // "Mumbai",
+    // "Delhi",
+    // "Bangalore ",
+    // "Hyderabad",
+    // "Ahmedabad",
+    // "Chennai",
+    // "Muzaffarpur",
+    // "Kolkata",
+    // "Pune",
+    // "Jaipur",
+    // "Surat",
+    // "Lucknow",
+    // "Kanpur",
+    // "Nagpur",
+    // "Visakhapatnam",
+    // "Indore",
+    // "Thane",
+    // "Bhopal",
+    // "Patna",
+    // "Vadodara",
+    // "Coimbatore",
   ];
 
   const { isAuthenticated, user } = useSelector((state) => state.user);
@@ -138,7 +154,7 @@ const JobPost = () => {
           onChange={(e) => setLocation(e.target.value)}
         >
           <option value="">Select your year</option>
-          {cities.map((element) => {
+          {years.map((element) => {
             return <option value={element}>{element}</option>;
           })}
         </select>
@@ -196,8 +212,8 @@ const JobPost = () => {
       <div>
         <label>Job/Intern</label>
         <select value={jobNiche} onChange={(e) => setJobNiche(e.target.value)}>
-          <option value="">Select Job Niche</option>
-          {nichesArray.map((element) => {
+          <option value="">Select Field</option>
+          {FieldArray.map((element) => {
             return <option value={element}>{element}</option>;
           })}
         </select>
