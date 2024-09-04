@@ -141,8 +141,8 @@ const JobPost = () => {
         <select value={jobType} onChange={(e) => setJobType(e.target.value)}>
           <option value="">Select Job Type</option>
           <option value="Full-time">Full-time-employement </option>
-          <option value="Part-time">Intern+Full-time-employement</option>
-          <option value="Part-time">InternShip</option>
+          <option value="Full-time">Intern + Full-time-employement</option>
+          <option value="Part-time"> InternShip </option>
 
         </select>
       </div>
@@ -235,10 +235,10 @@ const JobPost = () => {
           </span>
         </div>
         <select
-          value={hiringMultipleCandidates}
+          value={Apportunity}
           onChange={(e) => setHiringMultipleCandidates(e.target.value)}
         >
-          <option value="">Apportunity </option>
+{/*           <option value="">Apportunity </option> */}
           <option value="Yes">On Campus</option>
           <option value="No">Off Campus</option>
         </select>
