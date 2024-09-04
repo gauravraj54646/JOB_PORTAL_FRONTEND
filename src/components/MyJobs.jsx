@@ -50,13 +50,13 @@ const MyJobs = () => {
                     {element.title}
                   </p>
                   <p className="sub-sec">
-                    <span>Job Niche:</span> {element.jobNiche}
+                    <span>Job field:</span> {element.jobNiche}
                   </p>
                   <p className="sub-sec">
-                    <span>Salary: </span> {element.salary}
+                    <span>Package/Stipend: </span> {element.salary}
                   </p>
                   <p className="sub-sec">
-                    <span>Location:</span> {element.location}
+                    <span>Year:</span> {element.location}
                   </p>
                   <p className="sub-sec">
                     <span>Job Type:</span> {element.jobType}
@@ -75,7 +75,7 @@ const MyJobs = () => {
                   </p>
                   {element.offers && (
                     <p className="sub-sec">
-                      <span>What Are We Offering:</span> {element.offers}
+                      <span>What Are Company Offering:</span> {element.offers}
                     </p>
                   )}
                   <button
