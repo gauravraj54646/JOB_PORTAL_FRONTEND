@@ -117,27 +117,27 @@ const JobPost = () => {
           type="text"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          placeholder="Job Title"
+          placeholder="Core / I.T. / Analytics / Management. "
         />
       </div>
       <div>
         <label>Job Type</label>
         <select value={jobType} onChange={(e) => setJobType(e.target.value)}>
           <option value="">Select Job Type</option>
-          <option value="Full-time">Full-time</option>
-          <option value="Part-time">Part-time</option>
+          <option value="Full-time">Full-time-employement </option>
+          <option value="Part-time">Intern+Full-time-employement</option>
           <option value="Part-time">InternShip</option>
 
         </select>
       </div>
       <div>
-        <label>Location (City)</label>
+        <label>Year(1st,2nd,3rd,4th)</label>
         <select
           key={Math.random() * (200000 - 100000) + 100000}
           value={location}
           onChange={(e) => setLocation(e.target.value)}
         >
-          <option value="">Select Job Type</option>
+          <option value="">Select your year</option>
           {cities.map((element) => {
             return <option value={element}>{element}</option>;
           })}
@@ -175,13 +175,13 @@ const JobPost = () => {
         <textarea
           value={qualifications}
           onChange={(e) => setQualifications(e.target.value)}
-          placeholder="Required Qualifications For Job"
+          placeholder="Required Qualifications For Job/internship"
           rows={7}
         />
       </div>
       <div>
         <div className="label-infoTag-wrapper">
-          <label>What We Offer</label>
+          <label>What Company Offer</label>
           <span>
             <CiCircleInfo /> Optional
           </span>
@@ -203,12 +203,12 @@ const JobPost = () => {
         </select>
       </div>
       <div>
-        <label>Salary</label>
+        <label>Package/Stipend</label>
         <input
           type="text"
           value={salary}
           onChange={(e) => setSalary(e.target.value)}
-          placeholder="50000 - 800000"
+          placeholder="600000 - 8000000"
         />
       </div>
       <div>
@@ -222,9 +222,9 @@ const JobPost = () => {
           value={hiringMultipleCandidates}
           onChange={(e) => setHiringMultipleCandidates(e.target.value)}
         >
-          <option value="">Hiring Multiple Candidates?</option>
-          <option value="Yes">Yes</option>
-          <option value="No">No</option>
+          <option value="">Apportunity </option>
+          <option value="Yes">On Campus</option>
+          <option value="No">Off Campus</option>
         </select>
       </div>
       <div>
