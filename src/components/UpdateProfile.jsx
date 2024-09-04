@@ -70,13 +70,20 @@ const UpdateProfile = () => {
     };
   };
 
-  const nichesArray = [
+ const FieldArray = [
     "Software Development",
     "Web Development",
     "Cybersecurity",
     "Data Science",
     "Artificial Intelligence",
     "Cloud Computing",
+    "VLSI",
+    "Analog Electronics",
+    "Digital Control",
+    "Automation",
+    "Industrial Automation",
+    "Industrial Instrumentation",
+    "Petrochemical",
     "DevOps",
     "Mobile App Development",
     "Blockchain",
@@ -93,6 +100,9 @@ const UpdateProfile = () => {
     "IT Consulting",
   ];
 
+ 
+   
+  
   return (
     <div className="account_components">
       <h3>Update Profile</h3>
@@ -164,7 +174,7 @@ const UpdateProfile = () => {
                 value={thirdNiche}
                 onChange={(e) => setThirdNiche(e.target.value)}
               >
-                {nichesArray.map((element, index) => {
+                { FieldArray.map((element, index) => {
                   return (
                     <option value={element} key={index}>
                       {element}
