@@ -179,7 +179,7 @@ const UpdateProfile = () => {
                 value={firstNiche}
                 onChange={(e) => setFirstNiche(e.target.value)}
               >
-                {nichesArray.map((element, index) => {
+                {FieldArray.map((element, index) => {
                   return (
                     <option value={element} key={index}>
                       {element}
@@ -191,7 +191,7 @@ const UpdateProfile = () => {
                 value={secondNiche}
                 onChange={(e) => setSecondNiche(e.target.value)}
               >
-                {nichesArray.map((element, index) => {
+                {FieldArray.map((element, index) => {
                   return (
                     <option value={element} key={index}>
                       {element}
