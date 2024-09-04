@@ -26,7 +26,7 @@ const MyProfile = () => {
       </div>
       {user && user.role === "Job Seeker" && (
         <div>
-          <label>My Preferred Job Niches</label>
+          <label>My Preferred Job Field</label>
           <div
             style={{ display: "flex", flexDirection: "column", gap: "15px" }}
           >
@@ -51,7 +51,20 @@ const MyProfile = () => {
           </div>
         </div>
       )}
-      <div>
+    
+      //==================================================================
+{/*        <div>
+        <label>Branch</label>
+        <input
+          type="text"
+          disabled
+          value={user && user.address}
+          onChange={(e) => e.target.value}
+        />
+      </div>
+     
+
+        <div>
         <label>Phone Number</label>
         <input
           type="number"
@@ -60,6 +73,20 @@ const MyProfile = () => {
           onChange={(e) => e.target.value}
         />
       </div>
+
+        */}
+    //================================================================================
+
+        <div>
+        <label>Phone Number</label>
+        <input
+          type="number"
+          disabled
+          value={user && user.phone}
+          onChange={(e) => e.target.value}
+        />
+      </div>
+      
       <div>
         <label>Address</label>
         <input
