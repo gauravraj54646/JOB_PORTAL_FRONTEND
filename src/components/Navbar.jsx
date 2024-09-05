@@ -12,20 +12,24 @@ const Navbar = () => {
         <div className="logo">
           <img src="/logo.png" alt="logo" />
         </div>
-        <div className= "sub-sec" >        
+        <div className= "sub-sec" >   
+          <span>
           Training/Internship & Placement Cell, NIT Agartala 
+            </span>
         </div>
         <div className="links">
           <ul>
             <li>
               <Link to={"/"} onClick={() => setShow(!show)}>
-                HOME
+                HOME 
               </Link>
+              <span>|</span>
             </li>
             <li>
               <Link to={"/jobs"} onClick={() => setShow(!show)}>
-                JOBS
+                JOBS 
               </Link>
+              <span>|</span>
             </li>
             {isAuthenticated ? (
               <li>
