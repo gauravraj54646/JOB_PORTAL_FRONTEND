@@ -12,8 +12,8 @@ const Navbar = () => {
         <div className="logo">
           <img src="/logo.png" alt="logo" />
         </div>
-        <div>
-          Training/Internship & Placement Cell
+        <div className={}>
+          Training/Internship & Placement Cell, NIT Agartala 
         </div>
         <div className="links">
           <ul>
