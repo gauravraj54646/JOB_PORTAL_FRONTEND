@@ -12,8 +12,7 @@ const Navbar = () => {
         <div className="logo">
           <img src="/logo.png" alt="logo" />
         </div>
-        <div className= " align-items:center
-       gap: 250px" >   
+        <div className= "haedinglet" >   
        
           Training/Internship & Placement Cell, NIT Agartala 
          
