@@ -41,9 +41,7 @@ const Navbar = () => {
             
             </li>
 
-            <li></li
-                 <li></li>
-             <li></li>
+          
             
             <li>
               <Link to={"/"} onClick={() => setShow(!show)}>
