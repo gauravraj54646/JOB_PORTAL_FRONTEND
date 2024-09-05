@@ -12,13 +12,21 @@ const Navbar = () => {
         <div className="logo">
           <img src="/logo.png" alt="logo" />
         </div>
-        <div className= "haedinglet" >   
+{/*         <div className= "haedinglet" >   
        
           Training/Internship & Placement Cell, NIT Agartala 
          
-        </div>
+        </div> */}
         <div className="links">
           <ul>
+
+          <li>
+              <Link to={"/"} onClick={() => setShow(!show)}>
+        Training/Internship & Placement Cell, NIT Agartala 
+              </Link>
+            
+            </li>
+            
             <li>
               <Link to={"/"} onClick={() => setShow(!show)}>
                 HOME 
