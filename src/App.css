@@ -89,6 +89,7 @@ input::-webkit-outer-spin-button {
   align-items: center;
   gap: 30px;
 }
+
 .navbar .logo h4 {
   font-size: 26px;
   font-weight: 600;
@@ -97,6 +98,10 @@ input::-webkit-outer-spin-button {
 }
 .navbar .logo img {
   width: 120px;
+}
+.navbar .haedinglet{
+    align-items: center;
+  gap: 330px
 }
 .navbar .links {
   display: flex;
