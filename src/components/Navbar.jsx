@@ -12,6 +12,9 @@ const Navbar = () => {
         <div className="logo">
           <img src="/logo.png" alt="logo" />
         </div>
+        <div>
+          Training/Internship & Placement Cell
+        </div>
         <div className="links">
           <ul>
             <li>
