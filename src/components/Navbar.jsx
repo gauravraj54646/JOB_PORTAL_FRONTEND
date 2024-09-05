@@ -23,7 +23,7 @@ const Navbar = () => {
 
           <li>
               <Link to={"/"} onClick={() => setShow(!show)}>
-        Training/Internship & Placement Cell, NIT Agartala 
+       <h2> Training/Internship & Placement Cell, NIT Agartala </h2>
               </Link>
             
             </li>
