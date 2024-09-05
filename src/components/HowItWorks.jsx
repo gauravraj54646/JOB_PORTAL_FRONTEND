@@ -12,10 +12,10 @@ const HowItWorks = () => {
           <div className="icon">
             <LuUserPlus />
           </div>
-          <h4>Create an Account</h4>
+          <h4>Create an Account as a Student</h4>
           <p>
-            Sign up for a free account as a job seeker or employer. Set up your
-            profile in minutes to start posting jobs or applying for jobs.
+            Sign up for a free account as a Student or if you a member of T&P cell. Set up your
+            profile in minutes to start posting jobs/Internship or applying for jobs/Internship in our Campus .
             Customize your profile to highlight your skills or requirements.
           </p>
         </div>
@@ -23,11 +23,11 @@ const HowItWorks = () => {
           <div className="icon">
             <VscTasklist />
           </div>
-          <h4>Post or Browse Jobs</h4>
+          <h4>Let's Post (T&Ps) or Browse Jobs/Internship</h4>
           <p>
-            Employers can post detailed job descriptions, and job seekers can
-            browse a comprehensive list of available positions. Utilize filters
-            to find jobs that match your skills and preferences.
+            Training/Internship & Placement Cell of NIT Agartala can post detailed job descriptions, and Students can
+            browse a comprehensive list of available positions/Internships. Utilize filters
+            to find Internships that match your skills and preferences.
           </p>
         </div>
         <div className="card">
@@ -36,8 +36,8 @@ const HowItWorks = () => {
           </div>
           <h4>Hire or Get Hired</h4>
           <p>
-            Employers can shortlist candidates and extend job offers. Job
-            seekers can review job offers and accept positions that align with
+           Training/Internship & Placement Cell of NIT Agartala can shortlist candidates and extend job/Internship offers. Student
+             can review job offers that align with
             their career goals.
           </p>
         </div>
