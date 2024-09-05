@@ -18,7 +18,7 @@ const Navbar = () => {
          
         </div> */}
 
- <div className="links1">
+{/*  <div className="links1">
           <ul>
 
           <li>
@@ -28,18 +28,18 @@ const Navbar = () => {
             
             </li>
     </ul>
-   </div>
+   </div> */}
 
         
         <div className="links">
           <ul>
 
-{/*           <li>
+          <li>
               <Link to={"/"} onClick={() => setShow(!show)}>
         Training/Internship & Placement Cell, NIT Agartala 
               </Link>
             
-            </li> */}
+            </li>
 
             <li></li
                  <li></li>
