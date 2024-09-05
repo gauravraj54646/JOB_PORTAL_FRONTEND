@@ -21,7 +21,7 @@ const Register = () => {
   const [coverLetter, setCoverLetter] = useState("");
   const [resume, setResume] = useState("");
 
-  const nichesArray = [
+  const RoleArray = [
     "Software Development",
     "Web Development",
     "Cybersecurity",
@@ -184,7 +184,7 @@ const Register = () => {
                         onChange={(e) => setFirstNiche(e.target.value)}
                       >
                         <option value="">Your First Choice</option>
-                        {nichesArray.map((niche, index) => {
+                        { RoleArray.map((niche, index) => {
                           return (
                             <option key={index} value={niche}>
                               {niche}
@@ -203,7 +203,7 @@ const Register = () => {
                         onChange={(e) => setSecondNiche(e.target.value)}
                       >
                         <option value="">Your Second Choice</option>
-                        {nichesArray.map((niche, index) => {
+                        { RoleArray.map((niche, index) => {
                           return (
                             <option key={index} value={niche}>
                               {niche}
@@ -222,7 +222,7 @@ const Register = () => {
                         onChange={(e) => setThirdNiche(e.target.value)}
                       >
                         <option value="">Your Third Choice</option>
-                        {nichesArray.map((niche, index) => {
+                        { RoleArray.map((niche, index) => {
                           return (
                             <option key={index} value={niche}>
                               {niche}
