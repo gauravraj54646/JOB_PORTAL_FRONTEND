@@ -11,26 +11,7 @@ const Navbar = () => {
       <nav className={show ? "navbar show_navbar" : "navbar"}>
         <div className="logo">
           <img src="/logo.png" alt="logo" />
-        </div>
-{/*         <div className= "haedinglet" >   
-       
-          Training/Internship & Placement Cell, NIT Agartala 
-         
-        </div> */}
-
-{/*  <div className="links1">
-          <ul>
-
-          <li>
-              <Link to={"/"} onClick={() => setShow(!show)}>
-       <h2> Training/Internship & Placement Cell, NIT Agartala </h2>
-              </Link>
-            
-            </li>
-    </ul>
-   </div> */}
-
-        
+        </div>  
         <div className="links">
           <ul>
 
@@ -39,10 +20,7 @@ const Navbar = () => {
         Training/Internship & Placement Cell, NIT Agartala 
               </Link>
             
-            </li>
-
-          
-            
+            </li> 
             <li>
               <Link to={"/"} onClick={() => setShow(!show)}>
                 HOME 
