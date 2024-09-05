@@ -27,14 +27,14 @@ const Navbar = () => {
               </Link>
             
             </li>
-              <span>|</span>
+              <li>|</li>
             <li>
               <Link to={"/jobs"} onClick={() => setShow(!show)}>
                 JOBS 
               </Link>
             
             </li>
-              <span>|</span>
+              <li>|</li>
             {isAuthenticated ? (
               <li>
                 <Link to={"/dashboard"} onClick={() => setShow(!show)}>
