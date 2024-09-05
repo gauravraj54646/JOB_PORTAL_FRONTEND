@@ -17,7 +17,8 @@ const Navbar = () => {
           Training/Internship & Placement Cell, NIT Agartala 
          
         </div> */}
-        <div className="links">
+
+ <div className="links1">
           <ul>
 
           <li>
@@ -26,6 +27,19 @@ const Navbar = () => {
               </Link>
             
             </li>
+    </ul>
+   </div>
+
+        
+        <div className="links">
+          <ul>
+
+{/*           <li>
+              <Link to={"/"} onClick={() => setShow(!show)}>
+        Training/Internship & Placement Cell, NIT Agartala 
+              </Link>
+            
+            </li> */}
 
             <li></li
                  <li></li>
