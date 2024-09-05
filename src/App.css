@@ -99,12 +99,7 @@ input::-webkit-outer-spin-button {
 .navbar .logo img {
   width: 120px;
 }
-.navbar .haedinglet{
-   display: flex;
-   justify-content: space-between;
-  align-items: center;
-  gap: 100px
-}
+
 .navbar .links {
   display: flex;
   justify-content: space-between;
@@ -114,24 +109,6 @@ input::-webkit-outer-spin-button {
   align-items: center;
   gap: 50px;
 }
-
-.navbar .links1 ul {
-  display: flex;
-  align-items: center;
-  gap: 250px;
-}
-
-
-.navbar .links1 ul li {
-  list-style-type: none;
-}
-.navbar .links1 ul li a:hover {
-  color: #dfdf07;
-  transition: 0.3s;
-}
-
-
-
 .navbar .links ul li {
   list-style-type: none;
 }
