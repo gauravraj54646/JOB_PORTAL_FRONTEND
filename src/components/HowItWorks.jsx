@@ -34,7 +34,7 @@ const HowItWorks = () => {
           <div className="icon">
             <BiSolidLike />
           </div>
-          <h4>Hire or Get Hired</h4>
+          <h4>Opportunities On-Campus or Off-Campus</h4>
           <p>
            Training/Internship & Placement Cell of NIT Agartala can shortlist candidates and extend job/Internship offers. Student
              can review job offers that align with
