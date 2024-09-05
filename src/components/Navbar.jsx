@@ -23,14 +23,16 @@ const Navbar = () => {
               <Link to={"/"} onClick={() => setShow(!show)}>
                 HOME 
               </Link>
-              <span>|</span>
+            
             </li>
+              <span>|</span>
             <li>
               <Link to={"/jobs"} onClick={() => setShow(!show)}>
                 JOBS 
               </Link>
-              <span>|</span>
+            
             </li>
+              <span>|</span>
             {isAuthenticated ? (
               <li>
                 <Link to={"/dashboard"} onClick={() => setShow(!show)}>
