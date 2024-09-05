@@ -102,8 +102,8 @@ const Register = () => {
                     onChange={(e) => setRole(e.target.value)}
                   >
                     <option value="">Select Role</option>
-                    <option value="Employer">Register as an Employer</option>
-                    <option value="Job Seeker">Register as a Job Seeker</option>
+                    <option value="Employer">Register as an T&P cell</option>
+                    <option value="Job Seeker">Register as a Student</option>
                   </select>
                   <FaRegUser />
                 </div>
